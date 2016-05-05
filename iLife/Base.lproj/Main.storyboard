@@ -181,7 +181,6 @@
                                     <constraint firstAttribute="height" constant="21" id="unZ-y6-LyA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注册密码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNo-pA-aju">
@@ -191,7 +190,6 @@
                                     <constraint firstAttribute="height" constant="35" id="gtm-eU-6zd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注册账号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ab2-wP-Yei">
@@ -201,7 +199,6 @@
                                     <constraint firstAttribute="width" constant="68" id="Vhw-fi-x0Y"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HwU-Kk-fCl">
@@ -234,25 +231,31 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="YNo-pA-aju" firstAttribute="top" secondItem="ab2-wP-Yei" secondAttribute="bottom" constant="61" id="0pE-Ru-Cxa"/>
+                            <constraint firstItem="YNo-pA-aju" firstAttribute="leading" secondItem="RBF-rS-ufx" secondAttribute="leading" constant="29" id="Bmk-sO-BvO"/>
                             <constraint firstItem="Jpg-ol-6GK" firstAttribute="leading" secondItem="ab2-wP-Yei" secondAttribute="trailing" constant="-97" id="Jq0-1C-R7W"/>
                             <constraint firstItem="7Eq-R5-Mlp" firstAttribute="centerY" secondItem="YNo-pA-aju" secondAttribute="centerY" id="LVR-1r-04V"/>
+                            <constraint firstItem="ab2-wP-Yei" firstAttribute="leading" secondItem="RBF-rS-ufx" secondAttribute="leading" constant="29" id="Qfr-K0-hfm"/>
                             <constraint firstItem="HwU-Kk-fCl" firstAttribute="centerY" secondItem="ab2-wP-Yei" secondAttribute="centerY" id="TST-M3-4nA"/>
                             <constraint firstItem="r5S-5B-nQr" firstAttribute="top" secondItem="YNo-pA-aju" secondAttribute="bottom" constant="72" id="VX9-dr-tv2"/>
                             <constraint firstItem="ZQG-qQ-08j" firstAttribute="leading" secondItem="r5S-5B-nQr" secondAttribute="trailing" constant="25" id="Z3J-KV-0OX"/>
                             <constraint firstItem="HwU-Kk-fCl" firstAttribute="leading" secondItem="ab2-wP-Yei" secondAttribute="trailing" constant="25" id="Z9l-KQ-0NM"/>
-                            <constraint firstItem="Jpg-ol-6GK" firstAttribute="leading" secondItem="r5S-5B-nQr" secondAttribute="trailing" constant="-97" id="cJ1-GA-viZ"/>
                             <constraint firstItem="xW8-uf-RS3" firstAttribute="leading" secondItem="RBF-rS-ufx" secondAttribute="leadingMargin" constant="102" id="du0-Gf-1oj"/>
                             <constraint firstItem="ZQG-qQ-08j" firstAttribute="centerY" secondItem="r5S-5B-nQr" secondAttribute="centerY" id="ezu-nL-lwv"/>
                             <constraint firstItem="ayE-wF-7Td" firstAttribute="top" secondItem="Jpg-ol-6GK" secondAttribute="bottom" id="fZT-kQ-SGh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xW8-uf-RS3" secondAttribute="trailing" constant="102" id="ggK-xL-ZuH"/>
+                            <constraint firstItem="r5S-5B-nQr" firstAttribute="leading" secondItem="RBF-rS-ufx" secondAttribute="leading" constant="29" id="gqX-Nt-EO4"/>
                             <constraint firstItem="7Eq-R5-Mlp" firstAttribute="leading" secondItem="YNo-pA-aju" secondAttribute="trailing" constant="25" id="h6e-Kg-41f"/>
                             <constraint firstItem="Jpg-ol-6GK" firstAttribute="leading" secondItem="RBF-rS-ufx" secondAttribute="leading" id="j92-dA-HQS"/>
-                            <constraint firstItem="Jpg-ol-6GK" firstAttribute="leading" secondItem="YNo-pA-aju" secondAttribute="trailing" constant="-97" id="oLq-xN-xvP"/>
                             <constraint firstAttribute="trailing" secondItem="Jpg-ol-6GK" secondAttribute="trailing" id="oku-OA-GJU"/>
                             <constraint firstItem="Jpg-ol-6GK" firstAttribute="top" secondItem="RBF-rS-ufx" secondAttribute="top" id="qjY-RK-fh8"/>
                             <constraint firstItem="xW8-uf-RS3" firstAttribute="top" secondItem="Jpg-ol-6GK" secondAttribute="bottom" constant="-125" id="t6a-kw-TTC"/>
                             <constraint firstItem="ab2-wP-Yei" firstAttribute="top" secondItem="Zse-Uo-M0f" secondAttribute="bottom" constant="105" id="u1b-Fg-3Sa"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Jq0-1C-R7W"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="注册" id="6LB-0j-GoY"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
