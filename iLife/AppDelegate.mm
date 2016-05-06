@@ -19,6 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [[JHOpenidSupplier shareSupplier] registerJuheAPIByOpenId:@"JH803bf2ae8e12c2f264d8e407e6d06b29"];
+    NSLog(@"new");
     return YES;
 }
 
